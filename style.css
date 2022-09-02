@@ -1,0 +1,220 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 700 Bold;
+    color: #ffffff;
+    line-height: 2.375rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.875em;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 1, 600;
+    color: #ffffff;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+    padding-bottom: 0.625em;
+    padding-top: 6.25em;
+    margin: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.375rem;
+    font-weight: 700 Bold;
+    color: #191919;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    padding-bottom: 0.625em;
+    padding-top: 4.375em;
+    margin: 0px;
+    text-align: left;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400 normal;
+    color: #939393;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+    padding-bottom: 1.25em;
+    margin: 0px;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.bg-container {
+    background-color: #ffffff;
+}
+
+.bg-container1 {
+    background-image: url('https://editor.maool.com/images/freebie/hero3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.nm-column,
+.rev-column {
+    margin: 0 auto;
+    height: 15%;
+    width: 90%;
+    display: flex;
+    padding: 1.3em 0;
+}
+
+.nm-column {
+    flex-flow: row nowrap;
+
+}
+
+.rev-column {
+    flex-flow: row-reverse nowrap;
+}
+
+
+.col {
+    padding-bottom: 145px;
+
+}
+
+.col1,
+.col2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+@media (max-width: 600px) {
+
+    h3,
+    p {
+        text-align:center;
+        padding-top: 1.3em;
+    }
+
+    h3 {
+        padding-bottom: 0.6em;
+    }
+    
+    p {
+        padding-bottom: 1.3em;
+    }
+    .nm-column,
+    .rev-column {
+        flex-direction: column;
+        padding: 1.3em 0;
+    }
+
+    .col1,
+    .col2 {
+        width: 70%;
+    }
+    .padding,
+    .padding1 {
+        padding: none;
+    }
+
+}
+
+.text1 {
+    text-align: right;
+    font-size: 0.688rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0.6em 0;
+    margin: 0;
+    color: #999999;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9rem;
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+.button {
+    background-color: #ff3838;
+    border-radius: 2.813em;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.9em 3em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pd-button {
+    padding: 0.8em 1.875em
+}
+
+.padding {
+    padding-top: 2.6em;
+}
+
+.padding2 {
+    padding-top: 2.6em;
+    padding-bottom: 1.875em;
+}
+
+.padding1 {
+    padding-bottom: 2.6em;
+}
+
+.fa {
+    padding: 1.3em;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em;
+    border-radius: 50%;
+    background: grey;
+    color: white;
+}
+
+.c-p {
+    text-align: center
+}
+
+.link-text {
+    font-size: 0.9rem;
+    font-weight: 400 normal;
+    color: #939393;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+    padding-bottom: 1.25em;
+    margin: 0px;
+    text-align: center;
+}
